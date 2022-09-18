@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background-image: linear-gradient(135deg, black, rgb(137, 137, 137), black);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      position: absolute;
+    }
+
+    #crash1 {
+      position: absolute;
+      top: 80px;
+      left: 42px;
+      transform: rotate(-4deg);
+    }
+
+    #crash2 {
+      position: absolute;
+      top: 32%;
+      right: 7%;
+      transform: rotate(-7.5deg);
+    }
+
+    button {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+    }
+
+    #E {
+      top: 15%;
+      left: 5%;
+    }
+
+    #R {
+      top: 15%;
+      left: 30%;
+    }
+
+    #F {
+      top: 65%;
+      left: 18%;
+    }
+
+    #G {
+      top: 43%;
+      left: 35%;
+    }
+
+    #H {
+      top: 35%;
+      left: 55%;
+    }
+
+    #V {
+      top: 70%;
+      left: 40%;
+    }
+
+    #B {
+      top: 70%;
+      left: 55%;
+    }
+
+    #J {
+      top: 43%;
+      right: 25%;
+    }
+
+    #I {
+      top: 25%;
+      right: 30%;
+    }
+
+    #K {
+      top: 25%;
+      right: 12%;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <figure>
+      <img src="img/drum-kit.png" alt="">
+    </figure>
+    <figure id="crash1">
+      <img src="img/crash.png" alt="">
+    </figure>
+    <figure id="crash2">
+      <img src="img/crash.png" alt="">
+    </figure>
+    <button id="E">E</button>
+    <button id="R">R</button>
+    <button id="F">F</button>
+    <button id="G">G</button>
+    <button id="H">H</button>
+    <button id="J">J</button>
+    <button id="V">V</button>
+    <button id="B">B</button>
+    <button id="I">I</button>
+    <button id="K">K</button>
+  </main>
+  <audio src="voice/beat1.wav"></audio>
+  <audio src="voice/beat2.wav"></audio>
+  <audio src="voice/beat3.wav"></audio>
+  <audio src="voice/beat4.wav"></audio>
+  <audio src="voice/beat5.wav"></audio>
+  <audio src="voice/beat6.wav"></audio>
+  <audio src="voice/senj1.wav"></audio>
+  <audio src="voice/senj2.wav"></audio>
+  <audio src="voice/senj3.wav"></audio>
+  <audio src="voice/senj4.wav"></script>
+
+</html>
+<script src="javascript.js"></script>
